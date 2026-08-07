@@ -1,0 +1,16 @@
+{
+  "name": "eaglecraft",
+  "version": "0.1.0",
+  "description": "Eaglecraft - browser voxel client (custom multiplayer via WebSocket)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "author": "Nxl3r",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}

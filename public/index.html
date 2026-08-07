@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eaglecraft</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="ui">
+    <div id="topbar">
+      <input id="username" placeholder="Username" maxlength="16">
+      <input id="skinfile" type="file" accept="image/png">
+      <input id="serverUrl" placeholder="ws://localhost:3000">
+      <button id="connect">Connect</button>
+      <button id="lock">Click to play (Lock Pointer)</button>
+    </div>
+    <div id="mobile-controls" class="hidden">
+      <button id="m-forward">▲</button>
+      <button id="m-left">◀</button>
+      <button id="m-back">▼</button>
+      <button id="m-right">▶</button>
+      <button id="m-jump">Jump</button>
+    </div>
+  </div>
+
+  <canvas id="c"></canvas>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
